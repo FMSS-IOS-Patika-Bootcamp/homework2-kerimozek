@@ -1,6 +1,6 @@
 # FMSS-Homework-2
     NEWS APP
-<img src="/kerimnews-app.gif" width="250" >
+![screenshot](https://github.com/FMSS-IOS-Patika-Bootcamp/homework2-kerimozek/blob/main/images/app%20icon%20ss.png)
 
 ## Description
 - This is a news application.
@@ -15,3 +15,5 @@ With this application, the titles and images of the news can be seen on the firs
  
 - WebKit
      - WebView 
+     
+![screenshot](https://github.com/FMSS-IOS-Patika-Bootcamp/homework2-kerimozek/blob/main/images/app%20tanıtım.png)
