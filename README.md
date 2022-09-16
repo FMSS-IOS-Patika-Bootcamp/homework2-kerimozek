@@ -16,7 +16,3 @@ With this application, the titles and images of the news can be seen on the firs
 - WebKit
      - WebView 
 
-
-- First list item
-   - First nested list item
-     - Second nested list item
