@@ -1,17 +1,22 @@
-# HomeWork2
-İkinci Ödev
+# FMSS-Homework-2
+    NEWS APP
+<img src="images/kerimnews-app.gif" width="250" >
 
-          Haber Uygulaması
-- İlk sayfada Haberler Listelenicek.
-- Haberler   TableView yada # CollecitionView ile gösterilecek.
-- Habere tıklanınca  ilgili Haberin detay sayfası acılıcak.
-- Geçişler  Navigation Controller ile gerçekleştirilicek.
-- Haber Detayına gecerken Struct gönderip. Detay sayfasında Navigation Title bu structan alınıcak.
-- Detay sayfasındaki Description ( Açıklama ) bölümü gönderdiğimiz Streuctan alınıcak.
-- Detay sayfasının Description ( Acıklama ) bölümüne 20 px aralık ile Bir buton konumlandırılıcak. 
-- Detay sayfasındaki Butona bastığımızda 3. bir ekrana gidilicek.
-- 3. Ekranımızda Webview olucak ve ilgili Habere yönlendirilicek ( Burada istediğiniz siteye yönlendirme yapabilirsiniz Dumyy Haberlerle çalışıcaksınız. Örnek: https://www.google.com.tr/  )
+## Description
+- This is a news application.
+With this application, the titles and images of the news can be seen on the first page. When clicking on the news that attracts attention, the details of the news on the second page can be read. If there are more details about the news, clicking the "More Details" button on the second page can reach the page opened in WebView.
+
+## Tools
+
+- Swift 
+ 
+- UIKit
+   - CollectionView
+ 
+- WebKit
+     - WebView 
 
 
-# CollectionView da bir row da 2 ve daha fazla Haber gösterebilen extra puan alıcaktır.
-- İsteyen Uygulamasını Icon Koyabilir.
+- First list item
+   - First nested list item
+     - Second nested list item
