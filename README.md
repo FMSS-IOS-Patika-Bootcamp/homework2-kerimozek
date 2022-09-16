@@ -1,6 +1,6 @@
 # FMSS-Homework-2
     NEWS APP
-<img src="/kerimnews-app.gif" width="300" >
+<img src="/kerimnews-app.gif" width="250" >
 
 ## Description
 - This is a news application.
