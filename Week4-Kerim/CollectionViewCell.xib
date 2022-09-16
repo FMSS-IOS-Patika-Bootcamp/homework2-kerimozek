@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="Week4_Kerim" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="172" height="157"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="172" height="157"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" id="hjK-Cc-NPj">
+                        <rect key="frame" x="0.0" y="0.0" width="172" height="157"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xYj-KY-glp">
+                                <rect key="frame" x="0.0" y="0.0" width="172" height="122"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News Title" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdo-UX-kcn">
+                                <rect key="frame" x="12" y="121" width="148" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="D8x-Gj-UFt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xYj-KY-glp" firstAttribute="leading" secondItem="hjK-Cc-NPj" secondAttribute="leading" id="9N8-R9-F6O"/>
+                            <constraint firstItem="zdo-UX-kcn" firstAttribute="leading" secondItem="hjK-Cc-NPj" secondAttribute="leading" constant="12" id="QTp-ea-UEL"/>
+                            <constraint firstItem="xYj-KY-glp" firstAttribute="centerX" secondItem="zdo-UX-kcn" secondAttribute="centerX" id="XYz-Xw-Ojq"/>
+                            <constraint firstItem="xYj-KY-glp" firstAttribute="top" secondItem="hjK-Cc-NPj" secondAttribute="top" id="ZCT-rH-FwQ"/>
+                            <constraint firstAttribute="bottom" secondItem="zdo-UX-kcn" secondAttribute="bottom" id="e3G-Jl-qsE"/>
+                            <constraint firstItem="xYj-KY-glp" firstAttribute="centerX" secondItem="hjK-Cc-NPj" secondAttribute="centerX" id="r82-1w-S55"/>
+                            <constraint firstAttribute="bottom" secondItem="xYj-KY-glp" secondAttribute="bottom" constant="35" id="zIX-zC-zoW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="172" height="159"/>
+            <connections>
+                <outlet property="cellImage" destination="xYj-KY-glp" id="a1k-RQ-f4v"/>
+                <outlet property="cellTitle" destination="zdo-UX-kcn" id="ZHW-dG-LUy"/>
+            </connections>
+            <point key="canvasLocation" x="218.84057971014494" y="7.7008928571428568"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
