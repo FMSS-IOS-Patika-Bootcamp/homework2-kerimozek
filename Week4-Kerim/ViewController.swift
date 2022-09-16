@@ -77,7 +77,7 @@ extension ViewController: UICollectionViewDelegate {
         vc.dataSecond = NewsDetails.data[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
     }
-  
+    
 }
 
 
